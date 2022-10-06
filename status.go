@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/filecoin-project/go-address"
+	"github.com/ipfs-cluster/ipfs-cluster/api"
 	"github.com/ipfs/go-cid"
-	"github.com/ipfs/ipfs-cluster/api"
-	peer "github.com/libp2p/go-libp2p-core/peer"
+	peer "github.com/libp2p/go-libp2p/core/peer"
 )
 
 const iso8601 = "2006-01-02T15:04:05.999Z07:00"
